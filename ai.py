@@ -32,7 +32,7 @@ class Agent:
             self.TD_values[s] = 0
             self.N_TD[s] = 0
             self.Q_values[s] = [0,0] # First element is the Q value of "Hit", second element is the Q value of "Stand"
-            self.N_Q[s] = [0,0] # First element is the number of visits of "Hit" at state s, second element is the Q value of "Stand" at s
+            self.N_Q[s] = [0,0] # First element is the number of visits of "Hit" at state s, second element is the number of visits of "Stand" at s
 
         # Game simulator
         # NOTE: see the comment of `init_cards()` method in `game.py` for description of the initial game states       
